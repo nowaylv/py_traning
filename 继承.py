@@ -10,7 +10,7 @@ class Animal:
 class Cat(Animal):
 
     def __init__(self, name):
-        super().__init__(name)
+        super().__init__(name)#继承父类的初始话函数
 
 
 cat1 = Cat("大白")
