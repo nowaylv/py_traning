@@ -10,6 +10,7 @@ class Animal:
 class Cat(Animal):
 
     def __init__(self, name):
+        #super().__init__(name不可以写多行
         super().__init__(name)#继承父类的初始话函数
 
 
