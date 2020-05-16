@@ -34,3 +34,7 @@ print(set_demo.difference(set_demo, set_demo_copy))
 set_demo.remove(3)#remove argument is value or set_demo[x]
 
 print(set_demo)
+
+'''
+# 添加元素5
+'''

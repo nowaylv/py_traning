@@ -56,3 +56,21 @@ u = {"fa": "faafffff"}
 c = {"name": "zhang3", "sex": "男", "age": 36, "fa":"fafaaaaaa"}
 u.update(c)
 print(u)
+
+'''
+print(a.get("name"))
+
+
+good = a.fromkeys(["name", "sex"], "None")
+print(good)
+
+new_dict = {}.fromkeys(["name", "dfsaf"], "nwoay")
+print(new_dict)
+
+new_dict.popitem()#随机
+
+print(new_dict)
+
+new_dict.update(a)
+print(new_dict)
+'''

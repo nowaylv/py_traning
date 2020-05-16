@@ -96,3 +96,8 @@ print(isinstance((list_iterator), Iterator))
 for u in list_iterator:
     print(u)
 
+'''
+for之后可以加判断,但不能添加else
+生成器
+迭代器
+'''
